@@ -10,17 +10,8 @@ const config: Config = {
     extend: {
       fontFamily: {
         arabic: ["Cairo", "sans-serif"],
-        display: ["Cairo", "sans-serif"],
       },
       colors: {
-        amber: {
-          50: "#fffbeb",
-          100: "#fef3c7",
-          400: "#fbbf24",
-          500: "#f59e0b",
-          600: "#d97706",
-          700: "#b45309",
-        },
         brand: {
           50: "#FFF8ED",
           100: "#FEEFD3",
@@ -33,7 +24,10 @@ const config: Config = {
           800: "#4E2B09",
           900: "#2D1800",
         },
+        // ✅ FIXED: terra-50 was missing — caused build errors
         terra: {
+          50: "#FFF3EE",
+          100: "#FFE6D9",
           300: "#F4A88A",
           400: "#E88A65",
           500: "#E07B54",
@@ -44,7 +38,6 @@ const config: Config = {
         "slide-in": "slideIn 0.4s ease-out",
         "fade-in": "fadeIn 0.3s ease-out",
         "bounce-soft": "bounceSoft 0.6s ease-out",
-        "flash": "flash 0.5s ease-in-out",
       },
       keyframes: {
         slideIn: {
@@ -59,12 +52,6 @@ const config: Config = {
           "0%": { transform: "scale(0.9)", opacity: "0" },
           "60%": { transform: "scale(1.05)" },
           "100%": { transform: "scale(1)", opacity: "1" },
-        },
-        flash: {
-          "0%": { opacity: "0", transform: "scale(0.95)" },
-          "30%": { opacity: "1", transform: "scale(1)" },
-          "70%": { opacity: "1", transform: "scale(1)" },
-          "100%": { opacity: "0", transform: "scale(1.02)" },
         },
       },
     },

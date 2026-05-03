@@ -1,0 +1,90 @@
+{
+  "app": {
+    "name": "نور",
+    "tagline": "رحلة تعلم طفلك تبدأ هنا",
+    "subtitle": "منهج غلين دومان للتعلم المبكر"
+  },
+  "nav": {
+    "dashboard": "الرئيسية",
+    "flash": "البطاقات",
+    "words": "الكلمات",
+    "schedule": "الجدول",
+    "print": "طباعة",
+    "settings": "الإعدادات"
+  },
+  "dashboard": {
+    "greeting_morning": "صباح الخير",
+    "greeting_afternoon": "مساء الخير",
+    "greeting_evening": "مساء النور",
+    "sessions_today": "جلسات اليوم",
+    "session": "الجلسة",
+    "start_session": "ابدأ الجلسة",
+    "completed": "مكتملة ✓",
+    "words_active": "كلمات نشطة",
+    "words_retired": "كلمات متقاعدة",
+    "tip_of_day": "نصيحة اليوم",
+    "progress": "التقدم",
+    "todays_plan": "خطة اليوم"
+  },
+  "flash": {
+    "title": "وقت البطاقات",
+    "ready": "مستعد؟",
+    "tap_to_start": "اضغط للبدء",
+    "session_complete": "أحسنت! 🎉",
+    "words_shown": "عرضت",
+    "next": "التالي",
+    "done": "انتهى",
+    "set": "المجموعة"
+  },
+  "words": {
+    "title": "مكتبة الكلمات",
+    "add_category": "إضافة فئة",
+    "add_word": "إضافة كلمة",
+    "category_name": "اسم الفئة",
+    "word_arabic": "الكلمة بالعربية",
+    "word_english": "الكلمة بالإنجليزية",
+    "word_spanish": "الكلمة بالإسبانية",
+    "status_active": "نشطة",
+    "status_retired": "متقاعدة",
+    "status_pending": "في الانتظار",
+    "times_shown": "مرات العرض",
+    "retire": "تقاعد",
+    "activate": "تفعيل"
+  },
+  "schedule": {
+    "title": "الجدول الأسبوعي",
+    "today": "اليوم",
+    "tomorrow": "غداً",
+    "add_new_words": "إضافة كلمات جديدة",
+    "retire_old_words": "تقاعد الكلمات القديمة"
+  },
+  "print": {
+    "title": "طباعة البطاقات",
+    "print_button": "طباعة الآن",
+    "select_category": "اختر الفئة",
+    "card_size": "حجم البطاقة",
+    "all_categories": "كل الفئات"
+  },
+  "login": {
+    "title": "مرحباً بك في نور",
+    "subtitle": "سجل دخولك لمتابعة رحلة التعلم",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "login_button": "دخول",
+    "signup_button": "إنشاء حساب جديد",
+    "or": "أو"
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ",
+    "success": "تم بنجاح",
+    "back": "رجوع",
+    "next": "التالي",
+    "done": "تم"
+  }
+}
